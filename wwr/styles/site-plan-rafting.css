@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #153553  ;
-  --secondary-color: #E8C8B7 ;
-  --accent1-color: #FFAFCC;
-  --accent2-color: #E389B9 ;
+  --primary-color: #0D5BBC  ;
+  --secondary-color: #D9A13B ;
+  --accent1-color: #888C91;
+  --accent2-color: #3f3d3e ;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Roboto";
@@ -20,11 +20,11 @@ Fonts are separated by a & */
   --headline-color-on-color: #FFFFFF; /* headlines on a colored background */ 
   --paragraph-color-on-white: #2A2828; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #153553 ;
+  --paragraph-background-color: #888C91 ;
   --nav-link-color: #FFFFFF ;
-  --nav-background-color: #153553;
-  --nav-hover-link-color: #E8C8B7;
-  --nav-hover-background-color: #E389B9;
+  --nav-background-color: #0D5BBC;
+  --nav-hover-link-color: #FFFFFF;
+  --nav-hover-background-color: #D9A13B;
 }
 
 
