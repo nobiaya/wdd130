@@ -243,8 +243,7 @@ main section img {
       margin-top: 25px;
   }
 }
-
-
+/*---------about us -----*/
 .img{
   display: block;
   margin-left: auto;
@@ -252,6 +251,21 @@ main section img {
   width: 50%;
   padding-top: 25px;
 }
-.tex{
+.tex h1{
   text-align: center;
+}
+
+
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+
+  display: none;      
+}
+.moveDown {
+  margin-top: 3em;
 }
