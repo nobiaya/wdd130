@@ -53,8 +53,9 @@ body {
   }
   
   p {
-    font-family: 'Roboto', sans-serif;
-    padding: 1em;
+    font-family: 'Roboto';
+    padding: 2em;
+    font-size: 30px;
   }
   
   .navbar .footer{  
@@ -172,7 +173,7 @@ body {
   
   .home-grid{
     display: grid;
-    grid-template-columns:10f;
+    grid-template-columns:(1fr 9fr);
     
   }
   
