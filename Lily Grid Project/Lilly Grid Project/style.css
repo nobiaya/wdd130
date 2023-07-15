@@ -1,0 +1,158 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+
+body{
+    background-color: rgb(225, 222, 222);
+}
+* {
+    box-sizing: border-box;
+  }
+  .grid1 {
+    /* color: #ffffff; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    padding: 2em 1rem;
+    background-color: #585858;
+  }
+  
+  .grid1 h1 {
+    grid-column: 1 / -1;
+  }
+  
+  .grid2 {
+    display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 0 1em;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  grid-column: 2 / 11;
+  /* grid-row: span 1; */
+
+    
+  }
+  .grid2 h2 {
+    grid-column: 1 / 6;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 0 1em;
+    align-items: center;
+    padding: 1rem;
+    background-color: #4fb3ff; 
+    grid-column: 7 / -1;
+
+
+  }
+  
+  .grid3 h3 {
+    grid-column: 1 / -1;
+
+  }
+  
+  .grid4 {
+    display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 1em;
+  align-items: center;
+  padding: 1rem;
+  background-color: #71ffa5;
+  grid-row: 3;
+  grid-column: 4 / 11;
+}
+
+.grid4 h2 {
+    grid-column: 1 / -1;
+}
+
+  
+  section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    grid-column: 2 / 9;
+    grid-row: 4;
+  }
+  
+  section h2 {
+    grid-column: 1 / -1;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+  }
+  
+  section form:first-of-type{
+    align-items: center;
+    /* padding: 1rem; */
+    background-color: #ffbe5d;
+    grid-column: 2 / 7;
+
+
+  }
+  
+  section form:nth-of-type(2){
+   
+    gap: 1rem;
+    background-color: rgb(0, 149, 149);
+    align-items: center;
+    grid-column: 2 / 7;
+    /* grid-template-areas: 7 /2 / -1 / 7; */
+
+
+  }
+  
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  fieldset > div {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-column: 1 / -1;
+
+  }
+  
+  label {
+    display: block;
+  margin-bottom: 5px;
+  text-align: right;
+  grid-column: 1;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    grid-column: span 2;
+  }
+  
+  button {
+    background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  grid-column: 1 / -1;
+  }
+  
+  section > div {
+    
+  }
+  
+
+  form > fieldset{
+    /* border: none; */
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }

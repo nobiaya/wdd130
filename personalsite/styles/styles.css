@@ -347,15 +347,13 @@ body {
   font-size: 25px;
 }
 
-
 form {
   /* Center the form on the page */
   margin: 0 auto;
-  width: 200px;
+  width: 400px;
   /* Form outline */
   padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
+
 }
 
 ul {
@@ -364,13 +362,13 @@ ul {
   margin: 0;
 }
 
-form li {
+form li + li {
   margin-top: 1em;
 }
 
 label {
   /* Uniform size & alignment */
-  display: inline-block;
+  display: inline;
   width: 90px;
   text-align: right;
 }
@@ -387,6 +385,7 @@ textarea {
 
   /* Match form field borders */
   border: 1px solid #999;
+  margin-left: 15px;
 }
 
 input:focus,
@@ -398,6 +397,7 @@ textarea:focus {
 textarea {
   /* Align multiline text fields with their labels */
   vertical-align: top;
+  
 
   /* Provide space to type some text */
   height: 5em;
@@ -412,11 +412,30 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: 0.5em;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #003049;
+  color:#fcfbfb;
+ width: 50%;
+  height: 40px;
 }
 
+#feedback{
+    
+    font-size: 30px;  
+    color: black;  
+    grid-column: 1/9; 
+    grid-row: 1/10; 
+   justify-self: center;
+}
 
 .moveDown {
-    margin-top: 3em;
+  margin-top: 3em;
+}
+
+#contact{
+  text-align: center;
 }
 
   @media screen and (max-width: 900px) {
